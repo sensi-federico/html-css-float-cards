@@ -43,9 +43,9 @@ img {
 .card {
     background-color: black;
     width: 350px;
-    width: calc( (100% / 3) - 10px );
+    width: calc( (100% / 3) - 30px );
     float: left;
-    margin: 5px;
+    margin: 15px;
 }
 
 .card img {
@@ -64,10 +64,15 @@ img {
 
 .card_text h4 {
     padding-top: 1rem;
+    font-weight: 600;
 }
 
 .card_text h4, .card_text p, .card_text a {
     padding-left: 0.5rem;
+}
+
+.card_text p {
+    color: rgb(255, 255, 255, 0.8);
 }
 
 .col_4 {
