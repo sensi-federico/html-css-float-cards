@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+h1 {
+    color: #E53170;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.container > p {
+    text-align: center;
+}
